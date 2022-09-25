@@ -1,0 +1,5 @@
+#!/bin/bash
+for file in /SE-Meet-and-great-repo/basics/*
+do
+	echo "#!/bin/bash" > ${file}
+done	
